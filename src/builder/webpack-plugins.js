@@ -74,10 +74,9 @@ module.exports = function () {
                     port: 3000,
                     proxy: 'app.dev',
                     files: [
-                        'app/**/*.php',
-                        'resources/views/**/*.php',
-                        'public/js/**/*.js',
-                        'public/css/**/*.css'
+                        'Views/**/*.cshtml',
+                        'assets/js/**/*.js',
+                        'assets/css/**/*.css'
                     ],
                     snippetOptions: {
                        rule: {
