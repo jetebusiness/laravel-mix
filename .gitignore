@@ -4,3 +4,5 @@ notes.md
 coverage
 .nyc_output
 .idea/
+package-lock.json
+yarn.lock
